@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.section-a {
+  background-color: #13333a;
+}
+.section-a nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+.section-a nav .navlinks {
+  display: flex;
+  align-items: center;
+}
+.section-a nav .navlinks .nav-link-button {
+  border: 1px solid white;
+  padding: 9px 10px;
+  text-align: center;
+}
+.section-a nav .navlinks .nav-link-button:hover {
+  background-color: #3a1a13;
+}
+.section-a nav .navlinks li {
+  padding: 0.2em 1em;
+}
+.section-a nav .navlinks li a {
+  color: #afbbbe;
+}
+
+.section-a-main {
+  color: white;
+  text-align: left;
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+}
+.section-a-main .section-a-content {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 150px;
+}
+.section-a-main h1 {
+  font-weight: 700;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.section-a-main p {
+  margin-top: 10px;
+  color: #bebcbc;
+}
+.section-a-main img {
+  width: 500px;
+}
+.section-a-main .btn-section-a {
+  color: #13333a;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 3px 2px 16px 0px rgba(255, 255, 255, 0.75);
+  margin-top: 30px;
+}
+
+.section-b {
+  background-color: #ffffff;
+  padding: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.section-b .box {
+  height: 300px;
+  width: 501px;
+  border: 90px solid #e7ebeb;
+  border-bottom-left-radius: 90%;
+  position: absolute;
+  top: -0.2px;
+  right: -6px;
+}
+
+.section-b-content {
+  padding: 4rem;
+  background-color: whitesmoke;
+}
+.section-b-content h4 {
+  word-spacing: 1px;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+.section-b-content h2 {
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+.section-b-content p {
+  color: #bebcbc;
+}
+
+.section-b-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.section-b-grid .card {
+  z-index: 1;
+  width: 100%;
+}
