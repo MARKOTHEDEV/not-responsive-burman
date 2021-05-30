@@ -7,6 +7,6 @@
 
 <h2>This just shows how i can follow Designs as a Front end Developer</h2>
 
-<img src="https://user-images.githubusercontent.com/79238822/120114007-c4cae180-c1af-11eb-964f-7eabe14e5b1d.png" width="100%"; />
+<img src="https://user-images.githubusercontent.com/79238822/120114007-c4cae180-c1af-11eb-964f-7eabe14e5b1d.png" width="100%" />
 
 
